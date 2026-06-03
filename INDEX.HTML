@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agrinho <span>2026</span></div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#pilares">Pilares</a>
+            <a href="#quiz">Desafio Sustentável</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produção de alimentos e a preservação do nosso meio ambiente.</p>
+            <a href="#pilares" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="container">
+        <h2>Equilíbrio na Prática</h2>
+        <p class="subtitle">Como a tecnologia e a natureza caminham juntas no campo.</p>
+        
+        <div class="cards">
+            <div class="card">
+                <h3>Agro Forte</h3>
+                <p>Uso de tecnologia de ponta, inteligência artificial e maquinário eficiente para garantir a segurança alimentar do planeta.</p>
+            </div>
+            <div class="card">
+                <h3>Meio Ambiente</h3>
+                <p>Preservação de recursos hídricos, rotação de culturas e manutenção de áreas de reserva legal para proteger a biodiversidade.</p>
+            </div>
+            <div class="card">
+                <h3>Futuro Sustentável</h3>
+                <p>Adoção de energias renováveis (como solar e biogás) e práticas que reduzem a pegada de carbono no campo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <h2>Desafio AgroSustentável</h2>
+            <p>Será que você sabe tudo sobre o equilíbrio entre produção e ecologia? Teste seus conhecimentos!</p>
+            
+            <div class="quiz-container">
+                <div id="pergunta-box">
+                    <p id="pergunta-texto">Carregando pergunta...</p>
+                    <div class="quiz-botoes">
+                        <button onclick="verificarResposta(true)" class="btn-quiz verdadeiro">Verdadeiro</button>
+                        <button onclick="verificarResposta(false)" class="btn-quiz falso">Falso</button>
+                    </div>
+                </div>
+                <div id="resultado-box" class="escondido">
+                    <p id="resultado-texto"></p>
+                    <button onclick="proximaPergunta()" class="btn">Próxima Pergunta</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Juntos pelo Futuro da Agricultura.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
